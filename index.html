@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="">
+</head>
+<style>
+	.stuff-holder, .lamp{
+		width: 900px;
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+	.stuff{
+		max-width: 300px;
+		border: 1px solid lightgray;
+		box-sizing: border-box;
+		padding: 15px;
+		display: inline-block;
+	}
+	.stuff__content-img{
+		max-width: 250px;
+	}
+	.stuff__btn{
+		display: block;
+		width: 100%;
+	}
+
+	.lamp_itself{
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		border-top-left-radius: 50%;
+		border-top-right-radius: 50%;
+		text-align: center;
+	}
+
+</style>
+<body>
+
+	<header></header>
+
+	<main>
+		<section class="lamp">
+			<div class="lamp__holder">
+				<span class="lamp_itself">x</span>
+			</div>
+		</section>
+		<div id="app"></div>
+
+		<section class="stuff-holder">
+			
+				<div class="stuff" id = '1'>
+					<div class="stuff__title-wrap">
+						<h1 class="stuff__title">Название моего товара</h1>
+						<p class="stuff__title__text">Тут будет мое описание</p>
+					</div>
+					<p class="stuff__id"><span>Номер в базе:</span><span>1</span></p>
+					<div class="stuff__content-wrap">
+						<h2 class="stuff__content-title">Названиe картинки</h2>
+						<a href="#" class="stuff__content-img-wrap">
+							<img src="img/stuff1.png" alt="Stuff" class="stuff__content-img">
+						</a>
+						<p class="stuff__content-text">Описание товара</p>
+						<p class="stuff__content-price-wrap">
+							<p class="stuff__content-price"><span>100</span><span> грн</span></p>
+						
+					</div>
+					<button class="stuff__btn">Купить</button>
+				</div>
+
+				<div class="stuff" id = '2'>
+					<div class="stuff__title-wrap">
+						<h1 class="stuff__title">Название моего товара</h1>
+						<p class="stuff__title__text">Тут будет мое описание</p>
+					</div>
+					<p class="stuff__id"><span>Номер в базе:</span><span>2</span></p>
+					<div class="stuff__content-wrap">
+						<h2 class="stuff__content-title">Название картинки</h2>
+						<a href="#" class="stuff__content-img-wrap">
+							<img src="img/stuff1.png" alt="Stuff" class="stuff__content-img">
+						</a>
+						<p class="stuff__content-text">Описание товара</p>
+						<p class="stuff__content-price-wrap">
+							<p class="stuff__content-price"><span>100</span><span> грн</span></p>
+				 		  
+            </div>
+					<button class="stuff__btn">Купить</button>
+				</div>	
+
+				<div class="stuff" id = '3'>
+					<div class="stuff__title-wrap">
+						<h1 class="stuff__title">Название моего товара</h1>
+						<p class="stuff__title__text">Тут будет мое описание</p>
+					</div>
+					<p class="stuff__id"><span>Номер в базе:</span><span>3</span></p>
+					<div class="stuff__content-wrap">
+						<h2 class="stuff__content-title">Название картинки</h2>
+						<a href="#" class="stuff__content-img-wrap">
+							<img src="img/stuff1.png" alt="Stuff" class="stuff__content-img">
+						</a>
+						<p class="stuff__content-text">Описание товара</p>
+						<p class="stuff__content-price-wrap">
+							<p class="stuff__content-price"><span>100</span><span> грн</span></p>
+						
+					</div>
+					<button class="stuff__btn">Купить</button>
+				</div>
+				<section>				
+
+		</section>
+		
+	</main>
+
+	<footer>
+		
+	</footer>
+	<script src="/main.js"></script>
+</body>
+</html>
