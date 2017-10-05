@@ -67,3 +67,11 @@
     cart.append(totals);
 
 })();
+
+const btn = document.getElementsByClassName('stuff__btn')[0];
+	let click  = function(){alert('success');}
+btn.onclick=click;
+click = function(){
+	console.log(this)
+}
+click = function(){console.log(this.dataset.productId)};
